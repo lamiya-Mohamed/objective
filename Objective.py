@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-st.title("تشغيل نظام نتاج لإدارة الأهداف والنتائج الرئيسية")
+st.title("تشغيل نظام لإدارة الأهداف والنتائج الرئيسية")
 st.write("تساعد هذه الداشبورد في تتبع أداء الأهداف عبر المؤسسات.")
 class Organization:
     def __init__(self, id, name, sector):
